@@ -1,0 +1,8 @@
+1- Crie um container para criar um novo projeto de angular, certifique-se que cria um bind mount para o projeto ser refletido na sua máquina
+(que comando correr para gerar o projeto de angular)
+
+2- Crie uma imagem e consecutivamente um container que lhe permita desenvolver o projeto que criou em (1)
+
+3- Crie um container para criar um novo projeto de ASP.NET, certifique-se que cria um bind mount para o projeto ser refletido na sua máquina
+
+4- Crie uma imagem e consecutivamente um container que lhe permita desenvolver o projeto que criou em (3)
