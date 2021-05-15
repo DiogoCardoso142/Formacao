@@ -1,0 +1,24 @@
+Desafio1 - Dockerize a node-app e python app
+
+1- Crie uma imagem para cada app.
+Nota: Tenha o cuidado de olhar para o código de cada para a correta criação do Dockerfile. No caso da app de python queremos interagir e não lançar no browser.
+Submissão: copie o Dockerfile de cada app para dentro da pasta Dockerfiles (Dockerfile_Nome)
+
+2- Arranque um container para cada imagem. Ambas as apps devem funcionar corretamente.
+
+3- Pare e remova os containers criados em (2). Volte a arrancar novos containers desta vez atribua-lhe nomes. Faça o stop e start desses mesmos containers usando o nome atribuido.
+
+4- Pare e remova os containers existente. Limpe as imagens criadas para cada app.
+
+5- Volte a criar novas imagens desta vez atribuindo um nome à imagem e opcionalmente uma tag.
+
+6- Arranque containers para as imagens. As apps devem funcionar corretamente. Deve atribuir nomes aos containers e adicione uma opção ao comando para garantir que estes são removidos automaticamente quando são parados.
+Submissão: copie o comando "docker run ..." que usou para correr cada uma das apps para dentro do ficheiro Containers.txt
+
+
+
+Estrutura da Submissão
+Nome: Desafio_Dockerfiles_Nome.zip
+Pastas: Dockerfiles, Containers.txt
+
+Repo: formacao2021/Docker/Submissoes/[nome]/
