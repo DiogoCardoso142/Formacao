@@ -4,7 +4,7 @@ const app = express();
 
 app.get('/', (req, res) => {
   res.send(`
-    <h1>Hello from inside the very basic Node app! I changed this</h1>
+    <h1>This is a simple Node Express App</h1>
   `);
 })
 
