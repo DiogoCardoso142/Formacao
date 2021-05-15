@@ -1,0 +1,30 @@
+1. Crie a imagem da app de Node Express a partir do Dockerfile
+
+2. Crie um container de mongodb. Garanta que há persistência de dados(Use a página da imagem de mongo do DockerHub para saber em que diretoria ficam guardados os dados)
+
+3. Crie um container da app Express e faça com que abra corretamente no browser e permita fazer inserções e remoções da base de dados. Atente no ficheiro config.js, as linhas da comunicação são a 18 e a 26. Altere-as para conseguir a correta comunicação cumprindo os cenários abaixo:
+
+3.1 Expondo o container de mongodb no port 27017 (Neste caso o container de mongo acaba por funcionar como se fosse uma app local)
+
+3.2 Usando a flag --link ao correr o container de Express
+
+3.3 Criando uma network para os dois containers
+
+
+Submissão:
+Nome: Desafio_Networking_[Nome].txt
+
+Exemplo Submissão
+
+3.1
+18 (print da linha 18 do ficheiro config.js)
+26 (print da linha 26 do ficheiro config.js)
+(Express) docker run ... [imagem_criada_express]
+(MongoDB) docker run ... mongo
+
+3.2
+18 (print da linha 18 do ficheiro config.js)
+26 (print da linha 26 do ficheiro config.js)
+(Express) docker run ... [imagem_criada_express]
+(MongoDB) docker run ... mongo
+etc.
