@@ -1,0 +1,18 @@
+Desafio - Usar volumes em node-app e python-app
+
+1. Crie a imagem para python-app
+
+1.1. Corra um container e crie os volumes(e bind-mounts) necessários em python-app para conseguir mapear o ficheiro generateNumber.py para dentro do container.
+Nota: O python precisa de um módulo extra para que as mudanças sejam refletivas em save+refresh. Por isso faça um stop do container e start para confirmar que as mudanças estão a entrar no container.
+Submissão: copie o comando "docker run ..." para dentro do ficheiro Containers.txt. Antes do comando coloque 1- para identificação da alinea
+
+2. 1. Crie a imagem para node-app
+(Nota: Para o comando CMD use CMD npm start ou CMD ["npm","start"] invês de CMD ["node","server.js"])
+
+2. Corra um container e crie os volumes(e bind-mounts) necessários em node-app para conseguir mapear a pasta de desenvolvimento para dentro do container. A app tem de abrir sem erros no browser.
+Nota: O nodemon, responsável por fazer restart do server já foi aplicado em node-app portanto as suas mudanças vão ser refletidas no refresh do browser
+Submissão: copie o comando "docker run ..." para dentro do ficheiro Containers.txt. Antes do comando coloque 2- para identificação da alinea
+
+Estrutura da Submissão
+Nome: Desafio_Volumes_Nome.zip
+Pastas: Containers.txt
