@@ -1,0 +1,16 @@
+(1)
+Crie um branch (branch_tag) a partir de master/main
+Faça push de branch_tag para o repositório remoto
+Faça um commit em branch tag
+Crie uma tag chamada "tag-teste"
+Faça o push da tag criada para o repositório remoto
+-Considere que começa no branch master/main
+
+Submissão: Coloque no ficheiro [Nome]_Desafio_Tags_Pull_Requests.txt a sequência de comandos que executou
+
+
+
+(2)
+Quer integrar um desenvolvimento em branch_tag, mas antes de fazer a integração das suas alterações pretende que estas passem por um processo de aprovação primeiro.
+
+Submissão: Faça uma pequena descrição dos comandos e ações que executou para atingir este propósito.
