@@ -6,6 +6,7 @@
 3.1. Adicione esse ficheiro à área de staging
 
 4. Faça o commit deste ficheiro com a seguinte mensagem "Added f1.txt"
+4.1. Corra um comando para ver a historia dos seus commits
 
 5. Faça push das suas alterações para o repositório remoto
 
@@ -26,7 +27,7 @@
 
 
 
-Copie os comandos que executou nas alineas 2, 3.1, 4, 5, 6.1, 8, 9, 10, 12, para um ficheiro chamado Desafio_Basic_And_Syncronizing_[Nome].txt 
+Copie os comandos que executou nas alineas 2, 3.1, 4, 4.1, 5, 6.1, 8, 9, 10, 12, para um ficheiro chamado Desafio_Basic_And_Syncronizing_[Nome].txt 
 
 Repo: https://github.com/ricardo-softinsa/formacao2021
 Pasta: Git/Submissoes/[Nome]
