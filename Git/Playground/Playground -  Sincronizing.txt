@@ -1,0 +1,20 @@
+git push
+
+git pull
+
+
+
+
+Fazer push (Confirmar que o repositório local está a mapear o remoto)
+
+Criar ficheiro(teste.txt) localmente, fazer push para o repositório remoto
+
+Alterar algo no teste.txt pela interface web do repositório. Alterar algo localmente e tentar fazer push. O push foi rejeitado? Resolver e fazer push
+
+Alterar um ficheiro diferente do teste.txt pela interface web. Alterar teste.txt localmente. Tentar fazer push. É rejeitado o push?
+
+Alterar teste.txt pela interface web do repositório, alterar a mesma linha do teste.txt localmente, há conflito? Se sim resolver. Fazer push
+
+Alterar teste.txt pela interface web, alterar uma das linha adjacentes do teste.txt localmente, há conflito? Se sim resolver. Fazer push
+
+Alterar teste.txt pela interface web, alterar uma linha diferente localmente, há conflito? Se sim resolver. Fazer push
