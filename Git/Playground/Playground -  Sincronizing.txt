@@ -18,3 +18,11 @@ Alterar teste.txt pela interface web do repositório, alterar a mesma linha do t
 Alterar teste.txt pela interface web, alterar uma das linha adjacentes do teste.txt localmente, há conflito? Se sim resolver. Fazer push
 
 Alterar teste.txt pela interface web, alterar uma linha diferente localmente, há conflito? Se sim resolver. Fazer push
+
+
+Exercicios Interativos
+
+https://www.katacoda.com/devpro/scenarios/dojo-git-basics
+https://www.katacoda.com/courses/git/1
+https://www.katacoda.com/courses/git/2
+https://www.katacoda.com/courses/git/3
