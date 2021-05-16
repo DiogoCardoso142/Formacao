@@ -1,0 +1,32 @@
+1. Crie um repositório no GitHub
+
+2. Faça clone deste repositório na sua máquina local
+
+3. Crie um ficheiro f1.txt e escreva algo nele e salve. 
+3.1. Adicione esse ficheiro à área de staging
+
+4. Faça o commit deste ficheiro com a seguinte mensagem "Added f1.txt"
+
+5. Faça push das suas alterações para o repositório remoto
+
+6. Faça uma alteração no ficheiro f1.txt e salve-o.
+6.1. Corra um comando para ver qual a diferença que foi aplicada.
+
+7. Crie um novo ficheiro chamado f2.txt e escreva algo nele.
+
+8. Faça o add tanto do ficheiro f1.txt como do f2.txt
+
+9. Na verdade, não quer que f2.txt entre no próximo commit, retire-o da área de staging
+
+10. Faça commit com a mensagem "Updated f1.txt"
+
+11. Faça uma alteração em f1.txt pela interface do Github
+
+12. Faça com que essa alteração seja replicada no seu repositório local
+
+
+
+Copie os comandos que executou nas alineas 2, 3.1, 4, 5, 6.1, 8, 9, 10, 12, para um ficheiro chamado Desafio_Basic_And_Syncronizing_[Nome].txt 
+
+Repo: https://github.com/ricardo-softinsa/formacao2021
+Pasta: Git/Submissoes/[Nome]
