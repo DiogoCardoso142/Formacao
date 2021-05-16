@@ -1,0 +1,6 @@
+Criar branch, fazer alterações, abrir PR, aceitá-lo, ver as alterações feitas no branch de destino
+
+Fazer o mesmo que em cima mas fazendo com que exista um conflito no PR de maneira a não poder ser completado
+Repetir esta situação duas vezes e resolver os conflitos de maneiras diferentes:
+-Pela interface web (se der)
+-Pela linha de comandos

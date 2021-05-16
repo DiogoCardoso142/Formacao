@@ -1,0 +1,26 @@
+git tag [tag]
+
+git tag
+
+git show tag
+
+git push origin [tag]
+
+git tag -d [tag]
+
+git push origin -d [tag]
+
+
+
+Criar tags
+
+Ver lista de tags
+
+Ver info de uma tag
+
+Push de tags para repositório remoto
+
+Apagar uma tag localmente
+
+Apagar uma tag no repositório remoto
+
