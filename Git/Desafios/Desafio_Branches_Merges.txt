@@ -1,0 +1,55 @@
+(1)
+Crie um branch chamado branch_test a partir de master/main
+Faça o push do branch para o repositório remoto
+-Para a submissão considere que começa no branch master/main
+
+Submissão: Coloque no ficheiro [Nome]_Desafio_Branches_Merges.txt a sequência de comandos que executou
+
+
+(2)
+Crie um branch (branch_1) a partir de master.
+Crie um branch (branch_2) a partir de branch_1
+Simule um Fast-Forward merge 
+-Quer integrar branch_2 em branch_1
+-Considere que o desenvolvimento em branch_2 envolveu 2 commits com as mensagens "dev 1" e "dev 2"
+-Para a submissão considere que começa no branch master/main
+
+Submissão: Coloque no ficheiro [Nome]_Desafio_Branches_Merges.txt a sequência de comandos desde a criação dos branch até ao merge. 
+
+
+
+(3)
+Usando os mesmos branch da alinea (1)
+Simule desta vez um three-way merge
+-Quer integrar branch_2 em branch_1
+-Use quantos commits quiser em cada um dos branch (invente as mensagens também)
+-Para a submissão considere que começa no branch branch_1
+
+Submissão: Coloque no ficheiro [Nome]_Desafio_Branches_Merges.txt a sequência de comandos desde a criação dos branch até ao merge.
+
+
+
+(4)
+Aplique dois commits em branch_1
+O segundo commit (o mais recente, inclua num ficheiro a linha "Isto é um bug")
+Considere que esta linha é um bug
+Entre num estado de Detached Head para corrigir este bug, certifique-se que a correção do bug é persistente
+
+Submissão: Coloque no ficheiro [Nome]_Desafio_Branches_Merges.txt a sequência de comandos desde a criação dos branch até ao merge.
+
+
+
+(5)
+Crie um branch (branch_3) a partir de master/main
+Crie um branch (branch_4) a partir de branch_3
+Simule um conflito de merge e resolva-o para concluir o merge
+-Quer integrar branch_4 em branch_3
+
+Submissão: Coloque no ficheiro [Nome]_Desafio_Branches_Merges.txt a sequência de comandos desde a criação dos branch até ao merge.
+
+
+
+(6)
+Apague o branch branch_test localmente e remotamente
+
+Submissão: Coloque no ficheiro [Nome]_Desafio_Branches_Merges.txt a sequência de comandos que executou
