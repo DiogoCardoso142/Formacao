@@ -1,0 +1,45 @@
+git branch
+
+git branch [nome]
+
+git checkout
+
+git checkout -b [nome]
+
+git merge [branch]
+
+
+
+
+Criar branches
+
+Apagar branch localmente
+
+Fazer push de branches para o repositório remoto
+
+Apagar um branch no repositório remoto
+
+
+Criar um branch branch1
+
+Qual a diferença ente "git branch [nome]" e "git checkout -b [nome]"?
+
+Fazer alterações em branch1, tentar fazer push, o que acontece? Como resolver? (Branch não existente remotamente)
+
+Criar novo branch branch2, fazer push do branch para repositório remoto
+
+Alterar branch2 no repo remoto, alterar branch1 localmente. Quando fizer pull para sincronizar os repos, vou ter problemas neste caso?
+
+Criar branch3 a partir de branch1
+
+Fazer alterações em branch3. Fazer merge em branch1. Houve conflitos (Se sim resolver e acabar merge)? Que tipo de merge foi feito?
+
+Quais situações vão criar conflito no merge de branch3 em branch1 - Começar sempre por 1º Alterar branch3. 2º Alterar branch1:
+-Alterações no mesmo ficheiro e mesma linha
+-Alterações em linhas adjacentes do mesmo ficheiro
+-Alterações em linhas diferentes do mesmo ficheiro
+-Alterações em ficheiros diferentes nos dois branchs
+
+
+****Exercicios Interativos****
+https://www.katacoda.com/courses/git/6
