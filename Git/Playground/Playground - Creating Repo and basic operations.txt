@@ -1,0 +1,40 @@
+git init
+
+git remote add
+
+git clone
+
+git config
+
+git status
+
+git add
+
+git commit
+
+git reset
+
+git log
+
+
+(a flag --help dá-nos informação sobre os comandos, por exemplo: git add --help)
+
+Iniciar um repositório local com ou sem projeto existente (verificar existência da pasta .git, atenção que a pasta poderá estar oculta, nesse caso se pretender pode ativar a visibilidade destas pastas nas definições do File Explorer)
+
+Criar conta no GitHub, GitLab ou outro do género
+
+Criar um novo repositório na conta criada acima
+
+Criar referência ao repositório local ao repositório remoto
+
+Fazer clone do repositório criado no GitHub, Gitlab, etc noutra diretoria (verificar existência da pasta .git)
+
+Criar ficheiro(s) com qualquer conteúdo localmente (caso não tenha começado o repositório num projeto existente)
+
+Adicionar o(s) ficheiro(s) à staging area (Opcionalmente ver o ficheiro index dentro da pasta .git)
+
+Remover ficheiro(s) da staging area
+
+Fazer commit de ficheiros no repositório local
+
+Ver a lista dos nossos commits (git log)
