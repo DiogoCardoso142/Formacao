@@ -1,0 +1,67 @@
+1. Dockerize a base de dados em mongo (Dica: Leia a página do Dockerhub de MongoDB, será que precisamos de criar um Dockerfile?)
+- O container deve correr na porta 27017 (por default para MongoDB)
+
+
+
+2. Dockerize o backend em node (Pasta Backend)
+- O container deve correr na porta 80
+
+
+
+3. Dockerize o frontend em React (Pasta Frontend)
+- O container deve correr na porta 3000 (por default onde corre a app React)
+- O comando que deve correr quando começar o container é "npm start"
+
+
+
+4. Faça com que os 3 containers comuniquem entre si pelo localhost (Sem estarem dentro de uma docker network)
+-Resultado se estiver tudo ok: A app de React abre no browser sem mensagem de erro e permite inserir Goals
+-Atente no código da aplicação Backend que terá de alterar para que a comunicação seja bem sucedida (Dica: Como é que o docker resolve internamente o localhost?)
+Nota: Se a app de React abrir com erro, experimente correr o container do backend usando -p 80:80 e alterando o código do frontend não para escutar por host.docker.internal mas pelo localhost (Isto acontece porque o código javascript de react corre pelo browser e não pelo servidor de desenvolvimento criado no container)
+Ficheiros a ter em conta para a comunicação de containers
+-Backend/app.js -> linha 87
+-Nota: Ao correr o container de React use a flag -it caso contrário o container pára logo após começar o servidor (é algo especifico desta app React)
+
+
+
+5. Faça com que os 3 containers comuniquem entre si usando docker networks
+-Resultado se estiver tudo ok: A app de React abre no browser sem mensagem de erro
+-Atente no código da aplicação que terá de alterar para que a comunicação aconteça por docker networks
+Nota: Se a app de React abrir com erro, experimente correr o container do backend usando -p 80:80 e alterando o código do frontend não para escutar pela docker network mas pelo localhost (Isto acontece porque o código javascript de react corre pelo browser e não pelo servidor de desenvolvimento criado no container)
+
+
+6. Certifique-se que a app tem persistencia de dados (Neste caso a nossa base de dados)
+- O container de mongodb ao ser apagado e criado de novo devem persistir dados
+
+
+7. Certifique-se que a pasta logs do backend consegue persistir os dados
+
+
+8. Mapeie os containers do backend e do frontend de maneira a que o desenvolvimento na nossa máquina seja refletido dentro dos containers
+- Tenha em atenção as pastas que são overwriten devido a este mapeamento. Garanta que isso não acontece
+
+
+
+
+Submissão:
+Nome: Desafio_MultiContainer_[Nome].txt
+
+->Coloque no ficheiro os comandos docker run de cada app finais (após executar todas as alineas)
+->Coloque no ficheiro a linha 87 do ficheiro backend/app.js que usou nas seguintes situações:
+-Quando a comunicação backend-Mongo foi feita expondo a base de dados mongo na nossa máquina
+-Quando a comunicação backend-Mongo foi feita usando networks
+
+Exemplo de submissão
+
+MongoDB
+docker run ... mongo
+
+backend
+docker run ... [nome_imagem_backend]
+
+frontend
+docker run ... [nome_imagem_frontend]
+
+backend/app.js
+via Mongo exposta na máquina: (print da linha 87 do ficheiro backend/app.js)
+via networks: (print da linha 87 do ficheiro backend/app.js)
