@@ -6,11 +6,17 @@ Crie uma tag chamada "tag-teste"
 Faça o push da tag criada para o repositório remoto
 -Considere que começa no branch master/main
 
-Submissão: Coloque no ficheiro [Nome]_Desafio_Tags_Pull_Requests.txt a sequência de comandos que executou
-
+Submissão: Coloque no ficheiro [Nome]_Desafio_Tags_Pull_Requests.txt a sequência de comandos que executou.
 
 
 (2)
+A minha equipa pretende fazer uns testes sobre a última versão da aplicação que foi lançada no mercado e que foi marcada com a tag "v1.0".
+Para isso vão abrir um branch a partir dessa tag. Que comando se deve executar para este propósito?
+
+Submissão: Coloque no ficheiro [Nome]_Desafio_Tags_Pull_Requests.txt o comando a executar.
+
+
+(3)
 Quer integrar um desenvolvimento em branch_tag, mas antes de fazer a integração das suas alterações pretende que estas passem por um processo de aprovação primeiro.
 
 Submissão: Faça uma pequena descrição dos comandos e ações que executou para atingir este propósito.
