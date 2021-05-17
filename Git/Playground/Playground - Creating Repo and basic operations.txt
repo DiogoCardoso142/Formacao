@@ -25,7 +25,7 @@ Criar conta no GitHub, GitLab ou outro do género
 
 Criar um novo repositório na conta criada acima
 
-Criar referência ao repositório local ao repositório remoto
+Criar referência do repositório local ao repositório remoto
 
 Fazer clone do repositório criado no GitHub, Gitlab, etc noutra diretoria (verificar existência da pasta .git)
 
@@ -37,4 +37,4 @@ Remover ficheiro(s) da staging area
 
 Fazer commit de ficheiros no repositório local
 
-Ver a lista dos nossos commits (git log)
+Ver a lista/história dos nossos commits (git log)
